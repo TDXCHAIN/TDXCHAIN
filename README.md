@@ -1,28 +1,31 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <style>
-            div
-            {
-                background-color:#4c8;
-                color:white;
-                padding:20px;
-            }
-            #myspan
-            {
-                color:#601;
-            }
-        </style>
-    </head>
-    <body>
-        <h1>TDXCHAIN.ORG</h1>
-        <div>
-            <h2>TDXCHAIN</h2>
-            <p>TDXCHAIN is a exclusive DIGITAL Asset Exchanger. TDXCHAINN Corporation is one of the safest place for you to Purchase or invest in Digital Assets without fear of Lost in TDXCHAIN is looking for 10 individuals to become Validators on the TDXCHAIN with a minimum of 199 tdx/usdt or minimum of TDX/TRX 519.99 TDXCHAIN unique opportunity comes with significant rewards and responsibilities
-         </p>
-            <p>http://tdxchain.com</p>
-        </div>
-        <h1>©tdxchain</h1>
-        <div>TDXCHAIN <span id ="myspan" >DIGITAL</span> EXCHANGE</div>
-    </body>
-</html>
+<body>
+<table class="signup" cellpadding="2" cellspacing="5">
+<th colspan="2" align="center">Register TDXCHAIN</th>
+<form method="POST" action="adduser.php">
+<tr>
+<td>Full Name</td>
+<td><input type="text" maxlength="32" name="firstname" required="required"></td>
+</tr>
+<tr>
+<td>Username</td>
+<td><input type="text" maxlength="32" name="surname" required="required"></td>
+</tr>
+<tr>
+<td>password</td>
+<td><input type="text" maxlength="16" name="login" required="required"></td>
+</tr>
+<tr>
+<td>confirm Password</td>
+<td><input type="password" maxlength="12" name="password" required="required"></td>
+</tr>
+<tr>
+<td>E-mail address</td>
+<td><input type="email" maxlength="64" name="email" required="required"></td>
+</tr>
+<tr>
+|<td colspan="2" align="center"><input type="submit" value="Register"></td>
+</tr>
+</form>
+</table>
+<script src="script.js"></script>
+</body>
